@@ -21,4 +21,5 @@ int arr[5]={5,4,3,2,1};
 int size=arr/sizeof(arr[0]);
 sort(arr,5);
   print(arr,5);
+  cout<<"排序完成"<<endl;
 }
