@@ -9,10 +9,16 @@ void sort(int*arr,int size)
 		  swap(arr[i],arr[j]);
    }
 }
+void print(int*arr,int size)
+{
+   for(int i=0;i<size;i++)
+	  cout<<arr[i]<<endl;
+}
 int main()
 {
 
 int arr[5]={5,4,3,2,1};
 int size=arr/sizeof(arr[0]);
 sort(arr,5);
+  print(arr,5);
 }
